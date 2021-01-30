@@ -1,0 +1,158 @@
+#title, #testimonials {
+  background-color: #4A228A;
+  color: #fff;
+}
+
+body {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.bgimg2 {
+  opacity: 0.2;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation-bar {
+  padding-bottom: 5%;
+}
+
+#brandname {
+  color: #80ffdb;
+  padding: 0 0 0 3%;
+}
+
+.navbar-brand {
+  font-family: 'Potta One', sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px #252525;
+}
+
+.header-tag {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 2px 2px #4A228A;
+  padding: 0 0 0 7%;
+}
+
+.download-button {
+  margin: 5% 10% 5% 0;
+}
+
+.iphone-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#features {
+  padding: 7% 10%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.feature-icon {
+  color: #29E6D6;
+}
+
+.testimonial-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 40px;
+  padding: 5% 15%;
+}
+
+.feature-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.testimonial-image {
+  border-radius: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+#press, #cta {
+  background-color: #4A228A;
+  padding: 7% 3%;
+}
+
+.press-logo {
+  margin: 10px;
+  width: 20%;
+}
+
+#pricing {
+  padding: 5% 10%;
+}
+
+.card-title {
+  font-family: 'Potta One', sans-serif;
+  font-size: 36px;
+  color: #29E6D6;
+  text-shadow: 2px 2px #4A228A;
+}
+
+.card-image {
+  width: 45%;
+  position: relative;
+  padding-top: 5%;
+}
+
+#vegan {
+  width: 80%;
+}
+
+.card-header {
+  height: 250px;
+  background-color: #252525;
+}
+
+.card-body {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.cta-text {
+  font-family: 'Wendy One', sans-serif;
+  line-height: 1.5;
+  font-size: 50px;
+  padding: 0 15%;
+  color: #fff;
+}
+
+#cta .download-button {
+  margin: 1%;
+}
+
+#footer {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.external-link {
+  margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .header-tag {
+    text-align: center;
+  }
+}
